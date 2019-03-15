@@ -1,0 +1,255 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: brown;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+.head1{
+         margin-left: 40%;
+         margin-top: 30px;
+}
+ .pic2{
+     height: 300px;
+ }
+  .pic1{
+      height: 300px;
+      width: 100%;
+  }
+
+  .box{
+      margin: 2px solid black;
+  }
+  .head2{
+    margin-left: 40%;
+}
+.f-foot{
+    margin-top: 5%;
+}
+.foot3{
+    margin-top: 3%;
+}
+.head2{
+   margin-left: 40%;
+}
+
+.hhead{
+   font-size: 30px;
+   text-align: center;
+   margin-top: 20%;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20%;
+}
+
+h5{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.paragraph{
+    text-align: center;
+    margin-top: 40%;
+
+}
+.switch{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+ .pricing-content{
+     display: flex;
+     margin-top: 10%;
+    
+ }
+
+  .first-box{
+      border: 2px dotted black;
+      margin-right: 30px; 
+
+  }
+
+  .second-box{
+   border: 2px dotted black;
+   margin-right: 30px; 
+}
+
+.Third-box{
+   border: 2px dotted black;
+   margin-right: 30px; 
+}
+
+.fourth-box{
+   border: 2px dotted black;
+   margin-right: 30px; 
+}
+.head2{
+    margin-left: 40%;
+}
+
+.first-para{
+    text-align: justify;
+    margin-top: 10%;
+    color: rgb(104, 86, 86);
+    
+}
+.second-para{
+  /*  margin-left: 13%;*/
+   
+    
+}
+.Third-para{
+ /*  margin-left: 13%;*/
+   
+
+    
+}
+.Fourth-para{
+     color: rgb(104, 86, 86);
+    
+}
+div.foot{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.f-footer{
+    background-color: black;
+}
+.first-heading{
+    color: white;
+}
+.listss{
+    color: white;
+    color: rgb(104, 86, 86);
+}
+
+.first-card{
+    background-color: black;
+    border-style: none;
+}
+
+.second-card{
+   background-color: black;
+   border-style: none;
+}
+.Third-card{
+   background-color: black;
+   border-style: none;
+}
+.Fourth-card{
+   background-color: black;
+   border-style: none;
+}
+.first-list{
+    margin-top: 10%;
+}
+.sshead{
+    display: none;
+}
+
+
+
+.seen{
+    display: none;
+}
+ .myhead{
+     display: none;
+ }
+
+ .dropdown:hover >.dropdown-menu{
+    display: block;
+}
+
+.bar-pic1{
+    width: 170px;
+    height: 183px;
+}
+.second-pic2{
+    width: 170px;
+    height: 183px;
+}
+
+.Third-pic3{
+   width: 170px;
+   height: 183px;
+}
+.Fourth-pic4{
+   width: 170px;
+   height: 183px;
+}
+ @media screen and (max-width:700px){
+     .pricing-content{
+         flex-wrap: wrap;
+     }
+     .first-box{
+         margin-top: 20px;
+     }
+
+     .second-box{
+       margin-top: 20px;
+   }
+
+   .paragraph{
+       margin-top: 20px;
+   }
+
+   .Third-box{
+       margin-top: 20px;
+   }
+
+   .fourth-box{
+       margin-top: 20px;
+   }
+
+   .hhead{
+       margin-top: 10px;
+   }
+
+   .h3{
+       margin-top: -100%;
+   }
+
+   .h5{
+       margin-top: -10%;
+   }
+
+   .switch{
+       margin-left: 40% !important;
+   }
+ }
+ 
+ @media screen and (max-width:700px){
+    .seen{
+        display: flex !important;
+        margin-left: -70%;
+        
+    }
+    .scene{
+        display: none;
+    }
+    .sshead{
+        margin-left: -10%;
+    }
+    .feautures-head{
+        margin-left: -5%;
+        margin-top: 10%;
+
+    }
+    .people-head{
+        margin-left: -10%;
+    }
+}
+
+
+
